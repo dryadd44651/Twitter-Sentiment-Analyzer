@@ -18,7 +18,7 @@ In nltkModel.py, We get the training twitter sample from NLTK.
 We clean the data
 - removing all irrelevant characters such as any non alphanumeric characters.
 - lemmatize the data.
-- lengthening and Spell Check
+- lengthening and Spell Check(Time-consuming)
 Train the data with NaiveBayesClassifier
 
 5. Elasticsearch
