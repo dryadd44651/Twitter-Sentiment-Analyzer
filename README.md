@@ -26,3 +26,20 @@ install the Elasticsearch and run it to store the tweets and their sentiment inf
 
 6. Kibana
 Kibana is a visualization tool that can explore the data stored in elasticsearch.
+
+
+run cmd.bat
+- start the zookeeper-server, kafka-server, elasticsearch, kibana
+- create the kafka-topics
+- elasticsearch: http://localhost:200
+- kibana: http://localhost:5601/
+python StreamProducer.py
+python StreamConsumer.py  or  StreamConsumerNLTK.py
+StreamConsumerNLTK uses NLTK with nltkModel.py
+StreamConsumer uses VADER
+
+more sample code please check VADER.py, nlp_test.py, nltk.ipynb, nltkModel.py
+
+![tweet_dashboard.JPG](https://github.com/dryadd44651/Twitter-Sentiment-Analyzer/blob/master/tweet_dashboard.JPG)
+
+
