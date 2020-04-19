@@ -44,6 +44,8 @@ StreamConsumer uses VADER
 
 more sample code please check VADER.py, nlp_test.py, nltk.ipynb, nltkModel.py
 
+nltk.ipynb: nltk traing, Word2Vec word embeddings, sklearn machine learning model
+
 ![tweet_dashboard.JPG](https://github.com/dryadd44651/Twitter-Sentiment-Analyzer/blob/master/tweet_dashboard.JPG)
 
 
