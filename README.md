@@ -33,9 +33,13 @@ run cmd.bat
 - create the kafka-topics
 - elasticsearch: http://localhost:200
 - kibana: http://localhost:5601/
+
 python StreamProducer.py
+
 python StreamConsumer.py  or  StreamConsumerNLTK.py
+
 StreamConsumerNLTK uses NLTK with nltkModel.py
+
 StreamConsumer uses VADER
 
 more sample code please check VADER.py, nlp_test.py, nltk.ipynb, nltkModel.py
