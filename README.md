@@ -15,10 +15,12 @@ using Sentiment Analyzing tool(NLTK).
 
 4. Natural Language Toolkit
 In nltkModel.py, We get the training twitter sample from NLTK.
-We clean the data
-- removing all irrelevant characters such as any non alphanumeric characters.
-- lemmatize the data.
-- lengthening and Spell Check(Time-consuming)
+
+We ETL the data
+- Tokenizing and Stemming 
+- (removing all irrelevant characters such as any non alphanumeric characters.)
+- lemmatizing the data.
+- lengthening(gooood = > good) and Spell Check(Time-consuming)
 Train the data with NaiveBayesClassifier
 
 5. Elasticsearch
